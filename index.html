@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="loader_s">
+            <h1>0%</h1>
+        </div>
+        <!-- Intro Page -->
+        <div data-scroll data-scroll-speed="-5" id="page1">
+            <div id="navbar">
+            <nav class="nav_bar">
+                <div id="logo1">Jayesh.dev</div>
+                <ul class="menu">
+                    <i class="fa-solid sider fa-circle-xmark" onclick="closemenu()"></i>
+                    <li><a href="#page2" class="first1">About</a></li>
+                    <li><a href="#page4">Project</a></li>
+                    <li><a href="#page5">Education</a></li>
+                    <li><a href="#page6">Contact</a></li>  
+                </ul>
+                <i class="fa-solid sider fa-bars" onclick="openmenu()"></i>  
+            </nav>
+            </div>
+            <div id="content">live
+                <div class="content1">
+                    <div id="name">
+                    <h1>Hey, I'm <span>Jayesh</span></h1> <h1>Shridhar Padwal</h1>
+                    </div>
+                    <h2>Front-End web Developer</h2>
+                    <div id="logo1s">
+                    <div class="logo" >
+                        <img src="images/html5-icon-7.jpg" alt="">
+                        <img src="images/css3-icon-28.jpg" alt="">
+                        <img src="images/jsLogo.png" alt="">
+                        <img src="images/github.png" alt="">
+                        
+                    </div>
+                    <div class="logo">
+                        <img src="images/bootstrap.png" alt="">
+                        <img src="images/replicate-prediction-fnueoszbqd2rcnn5uthplx3aei.png" alt="">
+                        <img src="images/gsap.png" alt="">
+                    </div>
+                </div>
+                </div>
+                <div id="content2">
+                    <img src="images/back1.png" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- About Section -->
+        <div data-scroll-section id="page2">
+            <div id="info">
+            <div  id="about" class="About">
+                About Me
+            </div>
+            <div class="content3">
+                Hello, I'm a 21-year-old frontend web developer passionate about crafting captivating digital experiences. Proficient in HTML, CSS, and JavaScript, I create user-friendly websites that adapt seamlessly across devices. Skilled in Tailwind CSS, Bootstrap, and GSAP, I streamline development and bring designs to life with mesmerizing animations. I prioritize accessibility and inclusivity, ensuring all users can navigate with ease. Constantly learning and embracing new technologies, I aim to push the boundaries of web development. Beyond coding, I enjoy exploring various creative pursuits and the outdoors.
+                <div class="subcontent"> Let's collaborate and create something remarkable together in the ever-evolving digital landscape.</div>
+             </div>
+            </div>
+        </div>
+        <!-- Project -->
+        <div data-scroll-section id="page4">
+            <div  id="Project">
+                <h1>Project</h1>
+                <div class="p1">
+                    <img class="primg" src="images/railway.png" alt="">
+                    <div class="details1">
+                        <div class="prName title1">Railway Reservation System</div>
+                        <div class="desc description1">Railaway Reservation System is a Java-based application in NetBeans for easy train ticket reservation. It offers a user-friendly interface to view available trains, schedules, and reserve seats securely. Passengers can search for trains, book tickets, and receive real-time updates. Admins can manage schedules and monitor reservations efficiently.</div>
+                    </div>
+                </div>
+                <div class="p1 p2">
+                    <div class="details2">
+                        <div class="prName1 title2">Ecommerce sites</div>
+                        <div class="desc1 description2">A feature-rich E-commerce website specializing in electronic appliances. Developed using HTML, CSS, JavaScript, PHP, and Xampp, it offers a seamless shopping experience to customers. The website's intuitive interface allows users to explore a diverse range of electronic products, add items to their cart, and securely complete transactions through a payment gateway.</div>
+                    </div>
+                    <img class="primg" src="images/Electro.png" alt="">
+                </div>
+                <div class="p1">
+                    <img class="primg" src="images/3Dweb.png" alt="">
+                    <div class="details1">
+                        <div class="prName title3">3D websites</div>
+                        <div class="desc description3">
+                            A captivating 3D website showcasing animated images that come to life as users scroll through the pages. Developed with HTML, CSS, JavaScript, GSAP, and Locomotive Scroll, the website offers a unique and immersive experience. Each frame-by-frame animation is triggered dynamically as users scroll, creating a seamless and visually engaging journey.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div data-scroll-section id="page5">
+            <div  id="Education">
+                <h1>Education</h1>
+                <div class="college">
+                    <div class="collegeName collName1">
+                        S. K. College of Science and commerce, Nerul
+                    </div>
+                    <div class="stream stream1">
+                        Bachelor of Science - Computer Science
+                    </div>
+                </div>
+                <div class="college">
+                    <div class="collegeName collName2">
+                        K.V Pendharkar College college of Arts, Science and Commerce
+                    </div>
+                    <div class="stream stream2">
+                        Hsc Science
+                    </div>
+                </div>
+                <div class="college">
+                    <div class="collegeName collName3">
+                        Sarvodaya vidyalaya ,Nilje, Dombivli
+                    </div>
+                    <div class="stream stream3">
+                        Ssc
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div data-scroll-section id="page6">
+            <div  id="Contact">
+                <h1>Contact Me</h1>
+                <div class="gmail">jayeshpadwal09@gmail.com</div>
+                <div class="contactSites">
+                    <div class="linkedin linklogo">
+                    <a href="https://www.linkedin.com/in/jayesh-padwal-69ba20205/">
+                    <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    </div>
+                    <div class="github linklogo">
+                    <a href="https://github.com/Jayesh0726">
+                    <i class="fa-brands fa-github"></i>
+                    </a>
+                    </div>
+                    <div class="twitter linklogo">
+                    <a href="https://twitter.com/PadwalJayesh26">
+                    <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    </div>
+                    <div class="insta linklogo">
+                    <a href="https://www.instagram.com/__.jayesh07.__/">
+                    <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    </div>
+                </div>
+                <div class="cv">
+                    <div class="cv1">
+                    <a class="cv2" href="images/Jayeshresume.pdf" download>
+                        Download CV <i class="fa-solid fa-chevron-down"></i>  
+                    </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer data-scroll-section>
+            <div class="end">
+            @2023 My Portfolio Website.
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+ <script src="script.js"></script>   
+</body>
+</html>
